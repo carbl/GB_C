@@ -1,10 +1,10 @@
-
+/*
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
 #include <stdbool.h>
 #include <Windows.h>
-
+*/
 void is_two_same(int size, int a[])
 {
  int dubl = a[0];
@@ -22,7 +22,7 @@ dubl = a[k];
 }
         printf("NO");
 }
-
+/*
 int main() {
 	SetConsoleCP(CP_UTF8);
 	SetConsoleOutputCP(CP_UTF8);
@@ -45,5 +45,5 @@ is_two_same(sizeof(m)/sizeof(m[0]), m);
   
     return 0;
 }
-
+*/
 
