@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -12,6 +13,7 @@ void is_two_same(int size, int a[])
 	  for (int j=k; j < size; j++) {
 		  if (a[j] == dubl) {
 		printf("YES");
+		return;
 		
 	}
 }
@@ -43,4 +45,5 @@ is_two_same(sizeof(m)/sizeof(m[0]), m);
   
     return 0;
 }
+
 
